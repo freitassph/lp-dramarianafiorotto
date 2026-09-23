@@ -78,7 +78,10 @@
 /* Host integration: typography and interaction accent follow this site's design. */
 a.fl-credit[data-theme="dark"] {
   font-family: var(--f-sans);
-  --fl-credit-accent: #B39A72;
+  --fl-credit-color: #a19b92;
+  --fl-credit-strong: #aaa195;
+  --fl-credit-muted: #918c83;
+  --fl-credit-accent: #b09f85;
 }
 
 .footer__credit { margin-top: 12px; text-align: center; }
