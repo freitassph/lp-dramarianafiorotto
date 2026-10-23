@@ -503,3 +503,9 @@ Para questões técnicas ou solicitações de manutenção, entre em contato atr
 **Desenvolvido com ♥ e rigor técnico extremo.**
 
 *"Elegância é quando o interior é tão belo quanto o exterior." — Coco Chanel*
+
+## Dependências e runtime
+
+Use Node.js 24.22.1 (`nvm use`); instale o lockfile com `npm ci --ignore-scripts`. O delta de dependências preserva fontes, copy e assets. Isso não substitui a comparação do build e a verificação no navegador.
+
+Checks locais: `npm run build; npm run lint:html`. Publicação, configuração remota e serviços externos exigem verificação própria.
